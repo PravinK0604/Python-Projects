@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f8ff; /* Alice Blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #8e44ad; /* Deep Purple */
+}
+
+form input,
+form button {
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 5px 0;
+}
+
+.table {
+    background-color: #ffeaa7; /* Light Yellow */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid #fdcb6e; /* Golden border */
+}
+
+.btn-danger {
+    background-color: #e4b5b0; /* Vibrant Red */
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-primary {
+    background-color: #9fccee; /* Bright Blue */
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0652dd;
+}
